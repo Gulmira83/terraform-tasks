@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "b2" {
    provider    =  "aws.virginia"
-  bucket = "my-bucket1"
+  bucket = "my-bucket1-gulmira"
 
 
 
@@ -12,7 +12,7 @@ resource "aws_s3_bucket" "b2" {
 
 resource "aws_s3_bucket" "b3" {
    provider    =  "aws.oregon"
-  bucket = "my-bucket2"
+  bucket = "my-bucket2-gulmira"
 
 
 
@@ -24,7 +24,7 @@ resource "aws_s3_bucket" "b3" {
 
 resource "aws_s3_bucket" "b4" {
    provider    =  "aws.ohio"
-  bucket = "my-bucket3"
+  bucket = "my-bucket3-gulmira"
 
 
 
@@ -36,7 +36,7 @@ resource "aws_s3_bucket" "b4" {
 
 resource "aws_s3_bucket" "b5" {
    provider    =  "aws.california"
-  bucket = "my-bucket4"
+  bucket = "my-bucket4-gulmira"
 
 
 
