@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "b2" {
    provider    =  "aws.virginia"
-  bucket = "task-gulmira"
+  bucket = "my-bucket1"
 
 
 
@@ -12,7 +12,7 @@ resource "aws_s3_bucket" "b2" {
 
 resource "aws_s3_bucket" "b3" {
    provider    =  "aws.oregon"
-  bucket = "task-aizada"
+  bucket = "my-bucket2"
 
 
 
@@ -24,7 +24,7 @@ resource "aws_s3_bucket" "b3" {
 
 resource "aws_s3_bucket" "b4" {
    provider    =  "aws.ohio"
-  bucket = "task-aizirek"
+  bucket = "my-bucket3"
 
 
 
@@ -36,7 +36,7 @@ resource "aws_s3_bucket" "b4" {
 
 resource "aws_s3_bucket" "b5" {
    provider    =  "aws.california"
-  bucket = "task-adil"
+  bucket = "my-bucket4"
 
 
 
